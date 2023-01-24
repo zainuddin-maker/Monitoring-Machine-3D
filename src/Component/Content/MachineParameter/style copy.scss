@@ -1,0 +1,157 @@
+.machine-parameter-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    font-weight: bold;
+    gap: 10px;
+
+    .machine-parameter-filter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px;
+        width: fit-content;
+        height: 40px;
+        background: #ffffff;
+        border: 1px solid #658eb4;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        gap: 20px;
+    }
+
+    .machine-parameter-content {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+
+        .content-left-side {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 10px;
+
+            .content-left-top-side {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                height: 50%;
+
+                .content-left-top-top-side {
+                    display: flex;
+                    flex-direction: row;
+                    height: 50%;
+                    gap: 10px;
+
+                    .machine-basic-information {
+                        display: flex;
+                        flex-direction: row;
+                        min-width: 380px;
+                        width: 100%;
+                        background-color: aqua;
+                    }
+
+                    .operating-mode {
+                        display: flex;
+                        flex-direction: row;
+                        min-width: 380px;
+                        width: 100%;
+                        background-color: aqua;
+                    }
+
+                    .actual-spindle-speed {
+                        display: flex;
+                        flex-direction: row;
+                        min-width: 380px;
+                        width: 100%;
+                        background-color: aqua;
+                    }
+                }
+
+                .content-left-top-bottom-side {
+                    display: flex;
+                    flex-direction: row;
+                    height: 50%;
+                    gap: 10px;
+
+                    .feed-rate-override {
+                        display: flex;
+                        flex-direction: row;
+                        min-width: 380px;
+                        width: 100%;
+                        background-color: aqua;
+                    }
+
+                    .speed-rate-override {
+                        display: flex;
+                        flex-direction: row;
+                        min-width: 380px;
+                        width: 100%;
+                        background-color: aqua;
+                    }
+
+                    .actual-rate-override {
+                        display: flex;
+                        flex-direction: row;
+                        min-width: 380px;
+                        width: 100%;
+                        background-color: aqua;
+                    }
+                }
+            }
+
+            .content-left-bottom-side {
+                display: flex;
+                flex-direction: row;
+                height: 50%;
+                gap: 10px;
+                justify-content: space-between;
+
+                .content-left-bottom-left-side {
+                    display: flex;
+                    flex-direction: column;
+                    min-width: 380px;
+                    width: 100%;
+                    gap: 10px;
+
+                    .spindle-load {
+                        display: flex;
+                        flex-direction: row;
+                        height: 50%;
+                        background-color: aqua;
+                    }
+
+                    .servo-motor-temperature {
+                        display: flex;
+                        flex-direction: row;
+                        height: 50%;
+                        background-color: aqua;
+                    }
+                }
+
+                .content-left-bottom-right-side {
+                    display: flex;
+                    flex-direction: column;
+                    min-width: 770px;
+                    width: 100%;
+                    background-color: aqua;
+                }
+            }
+        }
+
+        .content-right-side {
+            display: flex;
+            flex-direction: column;
+            min-width: 650px;
+            gap: 10px;
+            background-color: aqua;
+
+            
+        }
+    }
+}

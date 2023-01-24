@@ -1,0 +1,43 @@
+.high-low-threshold {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    .high-threshold,
+    .low-threshold {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+
+        input {
+            width: 70px;
+            border: none;
+        }
+        label {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        .name {
+            font-size: 18px;
+            min-width: 50px;
+        }
+        .value {
+            display: flex;
+            align-items: center;
+            width: auto;
+            height: 23px;
+            padding: 0 5px;
+            border: 1px solid #aec4da;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+    }
+}

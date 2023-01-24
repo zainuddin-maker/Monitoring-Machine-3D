@@ -1,0 +1,607 @@
+{
+    "translations": {
+        "export": {
+            "export": "导出",
+            "actual_spindle_speed": "实际主轴转速",
+            "actual_feed_rate": "实际进给",
+            "spindle_load": "实际主轴负载",
+            "speed_rate_override": "转速倍率",
+            "feed_rate_override": "进给倍率",
+            "path_position": "路径位置",
+            "tool_id": "工具 ID",
+            "parts_count": "零件数量",
+            "parts_total": "零件总数",
+            "server_motor_temperature_x": "服务器电机温度 X",
+            "server_motor_temperature_y": "服务器电机温度 Y",
+            "server_motor_temperature_z": "服务器电机温度 Z",
+            "spindle_motor_temperature": "主轴电机温度",
+            "xact": "X行为",
+            "yact": "Y行为",
+            "zact": "Z行为",
+            "xload": "X加载",
+            "yload": "Y加载",
+            "zload": "Z加载",
+            "actual_feedrate": "实际进给",
+            "speed_override": "转速倍率",
+            "feedrate_override": "进给倍率",
+            "value": "数值",
+            "high": "上限",
+            "low": "下限",
+            "date_time": "日期",
+            "duration": "持续时间",
+            "type": "类型",
+            "parameter": "参数",
+            "description": "描述",
+            "timestamp": "修改时间",
+            "higher_than": "高于",
+            "lower_than": "低于",
+            "parameter_alert_logs": "参数_警报_日志",
+            "parameter_chart": "参数_图表",
+            "spindle_condition": "主轴_状态",
+            "factory": "工厂",
+            "shop_floor": "车_间",
+            "machine_type": "类_型",
+            "machine_number": "机_号",
+            "start_date": "开始_时间",
+            "end_date": "结束_时间"
+        },
+        "chart": {
+            "Continuously": "连续不断",
+            "Hourly": "每小时",
+            "AlarmStatusChart": "报警状态图",
+            "AlarmTrendChart": "报警趋势图"
+        },
+        "notification": {
+            "notification": "通知",
+            "category": {
+                "parameter": "参数",
+                "alarm": "警报",
+                "status": "地位"
+            },
+            "sub_category": {
+                "high": "高的",
+                "low": "低的",
+                "critical": "危急",
+                "warning": "警告",
+                "offline": "离线",
+                "stop": "停机",
+                "disconnected": "未连接"
+            },
+            "message": {
+                "higher_than": "高于",
+                "lower_than": "低于",
+                "critical": "危急",
+                "warning": "警告",
+                "offline": "离线",
+                "stop": "停机",
+                "disconnected": "未连接"
+            }
+        },
+        "alarm_guideline": "报警指南",
+        "toast": {
+            "app_under_maintenance": "维护中的应用程序",
+            "invalid_username": "无效的用户名",
+            "invalid_password": "无效的密码",
+            "failed_to_get_factory_data": "获取工厂数据失败",
+            "failed_to_get_shop_floor_data": "获取车间数据失败",
+            "failed_to_get_machine_type_data": "获取机器类型数据失败",
+            "failed_to_get_machine_model_data": "获取机器型号数据失败",
+            "failed_to_get_machine_number_data": "获取机号数据失败",
+            "failed_to_get_machine_list": "获取机器列表失败",
+            "failed_to_get_parameter_alert_logs_data": "获取参数告警日志数据失败",
+            "failed_to_get_asset_tags": "获取资产标签失败",
+            "data_is_empty": "数据为空",
+            "failed_to_get_data": "获取数据失败",
+            "failed_to_get_machine_details": "获取机器详细信息失败",
+            "failed_to_get_operation_summary_data": "获取操作汇总数据失败",
+            "failed_to_get_machine_parameter_latest_data": "获取机器参数最新数据失败",
+            "failed_to_get_user_details": "获取用户详细信息失败",
+            "failed_to_upload_image": "图片上传失败",
+            "failed_to_delete_image": "删除图片失败",
+            "successfully_update_profile": "成功更新个人资料",
+            "incorrect_confirm_password": "确认密码错误",
+            "password_length": "密码长度最小8位，最大72位，至少包含1个大写、小写、数字和特殊字符",
+            "successfully_reset_password": "成功重置密码",
+            "wrong_old_password": "旧密码错误!",
+            "validate_email": "无效的邮件地址!"
+        },
+        "time": {
+            "today": "今天",
+            "time": " 时间",
+            "second": "Second",
+            "minute": "Minute",
+            "hours": "时"
+        },
+        "date": {
+            "month": {
+                "january": "一月",
+                "february": "二月",
+                "march": "三月",
+                "april": "四月",
+                "may": "五月",
+                "june": "六月",
+                "july": "七月",
+                "august": "八月",
+                "september": "九月",
+                "october": "十月",
+                "november": "十一月",
+                "december": "十二月"
+            }
+        },
+        "login": {
+            "username": "用户名",
+            "password": "密码",
+            "login": "登录",
+            "warning": "您的用户名或密码输入错误，请检查信息!",
+            "display_password": "显示密码",
+            "remember_device": "记住登录信息",
+            "welcome_to": "欢迎来到"
+        },
+        "profile": {
+            "header": {
+                "personal_information": "个人信息",
+                "reset_password": "重设密码"
+            },
+            "content": {
+                "username": "用户名",
+                "job_number": "工号",
+                "email": "电子邮箱",
+                "password": "密码",
+                "new_password": "新密码",
+                "confirm_new_password": "确认新密码",
+                "update": "更新信息",
+                "reset_password": "重设密码"
+            }
+        },
+        "sidebar": {
+            "menu_name": {
+                "shop_floor_overview": "车间概览",
+                "machine_status_overview": "机器状态概览",
+                "machine_utilization": "机器利用率",
+                "machine_alarm_status": "机器报警状态",
+                "machine_parameter_overview": "机器参数概览",
+                "spindle_condition": "主轴状态"
+            }
+        },
+        "header": {
+            "title": {
+                "shop_floor_overview": "车间总览",
+                "machine_status_overview": "机器状态总览",
+                "machine_utilization": "机器利用率",
+                "machine_alarm_status": "机器报警状态",
+                "machine_parameter_overview": "机器参数总览",
+                "spindle_condition": "主轴状态"
+            }
+        },
+        "content": {
+            "filter": {
+                "search": "搜索",
+                "factory": "工厂",
+                "shop_floor": "车间",
+                "machine_type": "类型",
+                "machine_model": "机器编号",
+                "machine_number": "机号",
+                "start_date": "开始时间",
+                "end_date": "结束时间"
+            },
+            "shop_floor_overview": {
+                "shop_floor_information": {
+                    "header": {
+                        "shop_floor_information": "车间信息"
+                    },
+                    "content": {
+                        "RunningMachine": "运行中机器",
+                        "factory": "工厂",
+                        "shopfloor": "车间",
+                        "totalasset": "设备总数",
+                        "cnc": "CNC",
+                        "drilling-machine": "钻床",
+                        "EDM": "EDM",
+                        "markingmachine": "打标机",
+                        "grindinmachine": "磨床",
+                        "crane": "起重机",
+                        "CloseMoldMachine": "合模机",
+                        "MoldTurningMachine": "翻模机",
+                        "Millingmachine": "铣床",
+                        "Measuringmachine": "测量机"
+                    }
+                },
+                "asset_list": {
+                    "header": {
+                        "asset_list": "设备清单"
+                    },
+                    "content": {
+                        "no": "No",
+                        "AssetID": "资产编号",
+                        "brand": "品牌",
+                        "model": "型号",
+                        "machine_no": "设备编号",
+                        "type": "类型",
+                        "location": "位置",
+                        "factory": "工厂",
+                        "shopfloor": "车间",
+                        "remark": "备注",
+                        "Documents": "文件",
+                        "Upload": "上传",
+                        "Add_machine": "增加机器",
+                        "Update_machine": "更新机器",
+                        "Information": "信息一览",
+                        "Modification": "修改纪录",
+                        "Timestamp": "修改时间",
+                        "Modifiedby": "修改人",
+                        "ModificationType": "修改类型",
+                        "Image": "图片",
+                        "Files": "文件"
+                    }
+                },
+                "machine_information": {
+                    "header": {
+                        "Machine_information": "机器信息"
+                    },
+                    "content": {
+                        "AssetID": "资产编号",
+                        "brand": "品牌",
+                        "model": "型号",
+                        "machine_no": "设备编号",
+                        "type": "类型"
+                    }
+                },
+                "error": {
+                    "ErrorcallingAPItogetassetsdatashopfloor": "调用 API 获取资产数据车间时出错",
+                    "Move": "移动",
+                    "Exit": "出口",
+                    "Clicktoplay": "点击播放",
+                    "Errordeletingasset": "删除资产时出错",
+                    "Succesdeletingasset": "资产已删除",
+                    "Errordeletingfile": "删除文件时出错",
+                    "ErrorcallingAPItodeletefile": "调用 API 删除文件时出错",
+                    "Errorgettingfloorsdata": "获取计数数据时出错",
+                    "Errorgettingfunctionsdata": "获取函数数据时出错",
+                    "Errorgettingbrandsdata": "获取品牌数据时出错",
+                    "Errorgettingmodelnumbersdata": "获取型号数据时出错",
+                    "ErrorcallingAPItoaddasset": "调用 API 添加资产时出错",
+                    "ErrorcallingAPImodification": "调用 API 添加修改时出错",
+                    "ErrorcallingAPItouploaddatasheets": "调用 API 上传数据表时出错",
+                    "NewAssetAdded": "添加了新资产",
+                    "AssetUpdated": "资产更新",
+                    "ErrorcallingAPItogetroomsdata": "调用 API 获取房间数据时出错",
+                    "ErrorcallingAPItogetfloorsdata": "调用 API 获取楼层数据时出错",
+                    "ErrorcallingAPItoupdateasset": "调用 API 更新资产时出错",
+                    "ErrorcallingAPItodeletedatasheets": "调用 API 删除数据表时出错",
+                    "ErrorcallingAPItoaddmodification": "调用 API 添加修改时出错",
+                    "nodatachanged": "没有数据改变",
+                    "Errorgettingcountmodification": "获取计数修改时出错",
+                    "Errorgettingmodification": "获取修改时出错",
+                    "Errorgettingassetdatasheet": "获取资产数据表时出错",
+                    "Failedtogetfactorydata": "获取工厂数据失败",
+                    "FailedtoexportAssets": "导出资产失败",
+                    "failedtogetdataexport": "数据导出失败",
+                    "failedtogetdata": "获取数据失败",
+                    "Failedtogetchartdata": "获取图表数据失败",
+                    "Failedtogetrealtimedata": "获取实时数据失败",
+                    "Failedtogetmachinenumberdata": "获取机号数据失败",
+                    "Failedtogetcountalarmdata": "获取计数报警数据失败",
+                    "Failedtogetalarmdata": "获取报警数据失败",
+                    "failedgetlisttypealarm": "获取列表类型告警失败",
+                    "failedgetlistcodealarm": "获取列表代码失败报警",
+                    "Failedtogettenerrorcode": "获取十个错误码失败",
+                    "Failedtogetoccurencedata": "获取发生数据失败",
+                    "ErrorcallingAPItogetguidlinedata": "调用 API 获取指南数据时出错",
+                    "Thisoperationwilldeletetheselectedmachinesinformations": "该操作将删除选中的机器信息",
+                    "Areyousurewanttocontinue?": "您确定要继续吗",
+                    "Errorvalidatingexistingassetnumber": "验证现有资产编号时出错",
+                    "Assetnumberalreadyexist": "资产编号已存在",
+
+                    "Failedtodeletebrandoptionduetoexistingmodelnumberwiththisbrand": "由于该品牌的现有型号，无法删除品牌选项",
+                    "succesdeletebrand": "成功删除品牌",
+                    "Errordeletingbrand": "删除品牌时出错",
+                    "ErrorcallingAPItodeletebrand": "调用 API 删除品牌时出错",
+                    "succesaddingbrand": "成功添加品牌",
+                    "Erroraddingbrand": "添加品牌时出错",
+                    "ErrorcallingAPItoaddbrand": "调用 API 添加品牌时出错",
+                    "succesaddingtype": "成功添加类型",
+                    "Erroraddingtype": "添加类型时出错",
+                    "ErrorcallingAPItoaddtype": "调用 API 添加类型时出错",
+                    "Failedtodeletebrandoptionduetoexistingmodelnumberwiththistype": "由于此类型的现有型号，无法删除品牌选项",
+                    "succesdeletetype": "成功删除类型",
+                    "Errordeletingtype": "删除类型时出错",
+                    "ErrorcallingAPItodeletetype": "调用 API 删除类型时出错",
+                    "succesaddingmodel": "成功添加模型",
+                    "Erroraddingmodelnumber": "添加型号时出错",
+                    "ErrorcallingAPItoaddmodelnumber": "调用 API 添加型号时出错",
+                    "Failedtodeletemodelnumberoptionduetoexistingassetwiththismodelnumber": "由于具有此型号的现有资产，无法删除型号选项",
+                    "succesdeletemodel": "成功删除模型",
+                    "Errordeletingmodelnumber": "删除型号时出错",
+                    "ErrorcallingAPItodeletemodelnumber": "调用 API 删除型号时出错"
+                }
+            },
+            "spindle_condition": {
+                "spindle_condition": {
+                    "header": {
+                        "spindle_condition": "主轴参数"
+                    },
+                    "content": {
+                        "spindle_load": "实际主轴负载",
+                        "actual_spindle_speed": "实际主轴转速",
+                        "actual_feed_rate": "实际进给",
+                        "speed_rate_override": "转速倍率",
+                        "feed_rate_override": "进给倍率"
+                    }
+                },
+                "parameter_alert_log": {
+                    "header": {
+                        "parameter_alert_log": "参数报警日志"
+                    },
+                    "filter": {
+                        "type": "类型",
+                        "parameter": "参数"
+                    },
+                    "content": {
+                        "date_time": "日期",
+                        "duration": "持续时间",
+                        "type": "类型",
+                        "parameter": "参数",
+                        "description": "描述",
+                        "body": {
+                            "spindle_load": "实际主轴负载",
+                            "actual_spindle_speed": "实际主轴转速",
+                            "actual_feedrate": "实际进给",
+                            "speed_override": "转速倍率",
+                            "feedrate_override": "进给倍率",
+                            "higher_than": "高于",
+                            "lower_than": "低于",
+                            "high": "最高",
+                            "low": "最低"
+                        }
+                    }
+                },
+                "chart": {
+                    "actual_spindle_speed": "实际主轴转速",
+                    "actual_feed_rate": "实际进给",
+                    "spindle_load": "实际主轴负载",
+                    "speed_rate_override": "转速倍率",
+                    "feed_rate_override": "进给倍率",
+                    "path_position": "路径位置",
+                    "tool_id": "工具 ID",
+                    "parts_count": "零件数量",
+                    "parts_total": "零件总数",
+                    "server_motor_temperature_x": "服务器电机温度 X",
+                    "server_motor_temperature_y": "服务器电机温度 Y",
+                    "server_motor_temperature_z": "服务器电机温度 Z",
+                    "spindle_motor_temperature": "主轴电机温度",
+                    "xact": "X行为",
+                    "yact": "Y行为",
+                    "zact": "Z行为",
+                    "xload": "X加载",
+                    "yload": "Y加载",
+                    "zload": "Z加载",
+                    "actual_feedrate": "实际进给",
+                    "speed_override": "转速倍率",
+                    "feedrate_override": "进给倍率",
+                    "value": "数值",
+                    "high": "上限",
+                    "low": "下限"
+                },
+                "pop_up": {
+                    "header": {
+                        "actual_spindle_speed": "实际主轴转速"
+                    },
+                    "content": {
+                        "high": "上限",
+                        "low": "下限",
+                        "update": "更新",
+                        "cancel": "取消"
+                    }
+                }
+            },
+            "machine_status_overview": {
+                "status": {
+                    "total": "总数",
+                    "running": "运行",
+                    "idle": "空闲",
+                    "hold": "暂停",
+                    "stop": "停机",
+                    "offline": "离线",
+                    "safe": "安全的",
+                    "emergency": "事变"
+                },
+                "machine_overview": {
+                    "content": {
+                        "machine_type": "机器类型",
+                        "model": "编号",
+                        "asset_id": "资产编号",
+                        "location": "位置",
+                        "availability": "设备可用率",
+                        "running_time": "运行时间",
+                        "offline_time": "离线时间",
+                        "total_alarms": "总报警数",
+                        "alarm_count_by_type": "报警类型",
+                        "factory": "工厂",
+                        "shop_floor": "车间"
+                    }
+                }
+            },
+            "machine_utilization": {
+                "total": "总数",
+                "machine_basic_information": {
+                    "machine_no": "机器编号",
+                    "machine_type": "机器编号",
+                    "location": "位置"
+                },
+                "status": {
+                    "running": "运行",
+                    "idle": "空闲",
+                    "hold": "暂停",
+                    "stop": "停机",
+                    "offline": "离线",
+                    "safe": "安全的"
+                }
+            },
+            "machine_alarm_status": {
+                "alarm_log": {
+                    "header": {
+                        "alarm_log": "报警日志"
+                    },
+                    "content": {
+                        "type": "类型",
+                        "code": "编号",
+                        "no": "No",
+                        "date": "日期",
+                        "time_start": "开始时间",
+                        "time_stop": "停止时间",
+                        "duration": "持续时间",
+                        "alarm_kinds": "警报类型",
+                        "Critical": "危急",
+                        "Warning": "警告",
+                        "Emergency": "紧急情况",
+                        "AlarmGuidlines": "警报指南",
+                        "Nocode": "编号",
+                        "Description": "描述"
+                    }
+                },
+                "alarm_trend_status_chart": {
+                    "header": {
+                        "alarm_trend_chart": "报警趋势表",
+                        "alarm_status_chart": "报警状况表"
+                    },
+                    "content": {
+                        "critical": "严重报警",
+                        "warning": "警告报警",
+                        "disconnected": "未连接",
+                        "noalarm": "无报警",
+                        "emergency": "紧急情况"
+                    }
+                },
+                "top_5_occurence_by": {
+                    "header": {
+                        "top_5_occurence_by": "前五报警次数编号"
+                    },
+                    "content": {
+                        "CriticalAlarm": "严重报警",
+                        "WarningAlarm": "警告报警"
+                    }
+                },
+
+                "alarm_guidline": {
+                    "Parameterswitchon": "参数写入状态下的报警",
+                    "Poweroffparameterset": "请求切断电源的报警",
+                    "I/Oerror": "与存储器文件相关的报警",
+                    "ForegroundP/S": "与程序操作相关的报警",
+                    "OvertravelExternalData": "与超程相关的报警",
+                    "Overheatalarm": "过热报警",
+                    "Servoalarm": "伺服报警",
+                    "DataI/Oerror": "与通讯相关的报警",
+                    "Macroalarm": "报警宏",
+                    "Spindlealarm": "与主轴相关的报警",
+                    "Otheralarm(DS)": "其他报警",
+                    "Alarmconcerningmalfucntionpreventfunctions": "与误动作防止功能相关的报警",
+                    "BackgroundP/S": "与后台编辑相关的报警",
+                    "Syncronizederror": "同步错误",
+                    "(reserved)": "(预订的)",
+                    "Externalalarmmessage": "外部报警信息",
+                    "PMCerror": "PMC 错误",
+                    "NotUsed": "不曾用过"
+                },
+                "top_10_error_code": {
+                    "header": {
+                        "top_10_error_code": "前十报警次数编号"
+                    }
+                }
+            },
+            "machine_parameter_overview": {
+                "machine_basic_information": {
+                    "header": {
+                        "machine_basic_information": "机器基础信息"
+                    },
+                    "content": {
+                        "machine_type": "类型",
+                        "machine_no": "机号",
+                        "model": "型号",
+                        "location": "位置",
+                        "factory": "工厂",
+                        "shop_floor": "车间"
+                    }
+                },
+                "operating_mode": {
+                    "header": {
+                        "operating_mode": "运行模式"
+                    }
+                },
+                "spindle_speed": {
+                    "header": {
+                        "spindle_speed": "主轴参数"
+                    },
+                    "content": {
+                        "actual_spindle_speed": "实际主轴转速",
+                        "speed_rate_override": "速度倍率"
+                    }
+                },
+                "feed_rate": {
+                    "header": {
+                        "feed_rate": "进给参数"
+                    },
+                    "content": {
+                        "feed_rate_override": "进给倍率",
+                        "actual_feed_rate": "实际进给"
+                    }
+                },
+                "spindle_load": {
+                    "header": {
+                        "spindle_load": "主轴负载"
+                    },
+                    "content": {
+                        "spindle_load": "主轴负载"
+                    }
+                },
+                "servo_motor_temperature": {
+                    "header": {
+                        "servo_motor_temperature": "伺服电机温度"
+                    }
+                },
+                "spindle_load_and_axis": {
+                    "header": {
+                        "spindle_load_and_axis": "主轴负载与位置"
+                    },
+                    "content": {
+                        "tool_id": "机床编号",
+                        "path_positions": "路径位置",
+                        "load": "负载",
+                        "position": "位置"
+                    }
+                },
+                "operating_summary": {
+                    "header": {
+                        "operating_summary": "总运行数据"
+                    },
+                    "content": {
+                        "availability": "设备可用率",
+                        "utilization": "有效加工率",
+                        "total_machine_power_on_time": "全部开机时间",
+                        "total_running_time": "总运行时间",
+                        "total_idle_time": "总空闲时间",
+                        "total_hold_time": "总暂停时间",
+                        "total_offline_time": "总关机时间",
+                        "total_stop_time": "总停止时间",
+                        "total_cutting_time": "有效切割时间",
+                        "cutting_utilization": "有效加功率",
+                        "mttr": "均故障间隔时间",
+                        "mtbf": "平均无故障时间"
+                    },
+                    "status": {
+                        "running": "运行",
+                        "idle": "空闲",
+                        "hold": "暂停",
+                        "stop": "停机",
+                        "offline": "离线",
+                        "cutting": "有效切割时间",
+                        "non_cutting": "空刀时间"
+                    }
+                }
+            }
+        },
+        "not_found": {
+            "short_detail": "未找到",
+            "long_detail": "在此服务器上找不到请求的资源"
+        }
+    }
+}

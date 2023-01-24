@@ -1,0 +1,275 @@
+@import "color";
+@import "font";
+@import "size";
+
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: $fontFamily;
+    #root {
+        height: 100%;
+        .app {
+            height: 100%;
+            background-color: $defaultGrey;
+        }
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #dce7f3;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c0d4e7;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $defaultBlueTwo;
+}
+
+.app-split-sidebar-with-others {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    // gap: 5px;
+    justify-content: space-between;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 32px;
+    background-color: $defaultWhite;
+}
+
+.app-split-sidebar-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // gap: 5px;
+    width: auto;
+    min-width: 80px;
+
+    .app-logo {
+        display: flex;
+        min-height: 48px;
+        background: $defaultBackgroundLogo;
+        align-items: center;
+        padding: 0 5px;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .app-sidebar {
+        display: flex;
+        height: 100%;
+        background: $defaultBackgroundSidebar;
+
+        .sidebar-menu {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            gap: 5px;
+            align-items: center;
+            overflow-y: hidden;
+
+            p {
+                padding: 10px;
+                margin: 0;
+                position: absolute;
+                font-weight: bold;
+                font-size: $fontSizeBodySmaller;
+                color: $defaultWhite;
+            }
+            .menu-list {
+                display: flex;
+                position: relative;
+                width: 100%;
+                min-height: 80px;
+                align-items: center;
+                justify-content: center;
+                transition: all;
+                transition-duration: 0.2s;
+                cursor: pointer;
+
+                p {
+                    display: none;
+                }
+
+                .menu-icon {
+                    width: 68px;
+                    stroke: $defaultWhite;
+                    fill: $defaultWhite;
+                }
+
+                &__active {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    background: $defaultBackgroudBlue;
+                    p {
+                        display: none;
+                    }
+
+                    .menu-icon {
+                        width: 68px;
+                        stroke: $defaultBlueOne;
+                        fill: $defaultBlueOne;
+                    }
+                }
+            }
+
+            .menu-list:hover {
+                background-color: $defaultBlueZero;
+                stroke: none;
+                fill: none;
+                width: 100%;
+                min-height: 80px;
+                p {
+                    display: flex;
+                }
+                .menu-icon {
+                    display: none;
+                }
+            }
+        }
+
+        .sidebar-menu:hover {
+            overflow-y: auto;
+        }
+    }
+}
+
+.app-split-header-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    // gap: 5px;
+    overflow: hidden;
+
+    .app-header {
+        min-height: 48px;
+
+        .header-content {
+            display: flex;
+            background: $defaultBackgroundHeader;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 16px;
+            height: 100%;
+            overflow: hid;
+
+            .header-title {
+                display: flex;
+                color: $defaultWhite;
+                justify-content: flex-start;
+                align-items: center;
+                min-width: 350px;
+                width: auto;
+                font-size: 22px;
+                font-weight: bold;
+                line-height: 26px;
+                letter-spacing: 1px;
+            }
+
+            .header-menu {
+                width: 100%;
+                min-width: 600px;
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 15px;
+                // overflow-x: auto;
+                overflow-y: hidden;
+            }
+        }
+        .header-content:hover {
+            overflow: auto;
+        }
+    }
+
+    .app-content {
+        display: flex;
+        height: 100%;
+        padding: 5px;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .app-content:hover {
+        overflow: auto;
+    }
+}
+
+@keyframes notifyOpen {
+    from {
+        display: none;
+        width: 100px;
+    }
+    to {
+        display: inline-flex;
+        width: 100%;
+    }
+}
+
+@keyframes notifyClose {
+    from {
+        display: inline-flex;
+        width: 100%;
+    }
+    to {
+        display: none;
+        // width: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    span.notification-detail {
+        display: none;
+    }
+    span.notification-detail-any-notif {
+        display: none;
+    }
+    // .header-title {
+    //     font-size: $fontSizeBodyStandard;
+    // }
+}
+
+@media screen and (min-width: 1400px) {
+    span.notification-detail {
+        display: none;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        animation-name: notifyOpen;
+        animation-duration: 2s;
+    }
+    span.notification-detail-any-notif {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        animation-name: notifyClose;
+        animation-duration: 2s;
+    }
+    // .header-title {
+    //     font-size: $fontSizeBodyHuge;
+    // }
+}

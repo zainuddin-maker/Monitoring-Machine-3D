@@ -1,0 +1,267 @@
+.machine-utilization-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: auto;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .machine-utilization-filter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 32px;
+        width: fit-content;
+        height: auto;
+        background: #ffffff;
+        border: 1px solid #658eb4;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .machine-utilization-filter-date {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        // min-width: 1130px;
+        height: 36px;
+        height: auto;
+        position: relative;
+        justify-content: space-between;
+
+        .filter-date {
+            display: flex;
+            flex-direction: row;
+            padding: 5px 32px;
+            width: fit-content;
+            background: #ffffff;
+            border: 1px solid #658eb4;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            gap: 20px;
+            height: auto;
+            flex-wrap: wrap;
+        }
+
+        .export-button {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+    }
+
+    .machine-utilization-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+        overflow: auto;
+        // justify-content: space-between;
+
+        .machine-utilization {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 210px;
+            min-height: 210px;
+            justify-content: space-between;
+            background-color: #ffffff;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 6px 6px 0px 0px;
+            // z-index: 1;
+
+            .machine-basic-information {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                border: 1px solid #586f85;
+                box-sizing: border-box;
+                height: 100%;
+                justify-content: space-between;
+                z-index: 1;
+                .header {
+                    display: flex;
+                    background-color: #184267;
+                    min-height: 28px;
+                    padding: 0 5px;
+                    align-items: center;
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                .content {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    height: 100%;
+                    padding: 10px;
+                    width: 300px;
+
+                    .content-image {
+                        border: 1px solid #586f85;
+                        box-sizing: border-box;
+                        width: 200px;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: scale-down;
+                        }
+                    }
+
+                    .content-information {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        gap: 2px;
+
+                        .information-detail {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 3px;
+
+                            p {
+                                font-size: 14px;
+                                font-weight: bold;
+                                margin: 0;
+                                padding: 0;
+                            }
+
+                            span.information-value {
+                                display: flex;
+                                background-color: #dce7f3;
+                                padding: 0 5px;
+                                height: fit-content;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .padding-machine-chart {
+                padding: 10px;
+                overflow: auto;
+                width: 100%;
+            }
+            .machine-chart {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+                gap: 10px;
+                overflow: auto;
+                position: relative;
+
+                .machine-status-chart-type {
+                    display: flex;
+                    flex-direction: row;
+                    height: 30px;
+                    min-height: 30px;
+                    gap: 10px;
+                    justify-content: space-between;
+                    overflow: auto;
+
+                    .machine-status {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        width: 100%;
+                        overflow: auto;
+
+                        .status {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 5px;
+                            border: 1px solid #658eb4;
+                            padding: 5px 5px;
+
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+
+                    .machine-chart-type {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 3px;
+                        width: fit-content;
+
+                        .type-1,
+                        .type-2 {
+                            display: flex;
+                            flex-direction: row;
+                            width: 30px;
+                            cursor: pointer;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 5px;
+                            background: linear-gradient(
+                                180deg,
+                                #ffffff 0%,
+                                #d5e2e4 100%
+                            );
+                            border: 1px solid #aec4da;
+                            box-sizing: border-box;
+                            border-radius: 4px;
+
+                            &__active,
+                            &__active {
+                                background: linear-gradient(
+                                    180deg,
+                                    #f0f7ff 0%,
+                                    #98b0cb 100%
+                                );
+                                border: 1px solid #3d5d7a;
+                            }
+                        }
+                    }
+                }
+
+                .chart {
+                    height: 100%;
+                    border: 1px solid #aec4da;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+
+    .pagination {
+        display: flex;
+        width: 100%;
+        height: 45px;
+        justify-content: center;
+    }
+    .chart-tooltip {
+        background-color: #ffffff;
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        padding: 5px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

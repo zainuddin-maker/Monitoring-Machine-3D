@@ -1,0 +1,600 @@
+{
+    "translations": {
+        "export": {
+            "export": "Export",
+            "actual_spindle_speed": "Actual Spindle Speed",
+            "path_position": "Path Position",
+            "tool_id": "Tool ID",
+            "parts_count": "Parts Count",
+            "parts_total": "Parts Total",
+            "server_motor_temperature_x": "Server Motor Temperature X",
+            "server_motor_temperature_y": "Server Motor Temperature Y",
+            "server_motor_temperature_z": "Server Motor Temperature Z",
+            "spindle_motor_temperature": "Spindle Motor Temperature",
+            "xact": "Xact",
+            "yact": "Yact",
+            "zact": "Zact",
+            "xload": "Xload",
+            "yload": "Yload",
+            "zload": "Zload",
+            "actual_feedrate": "Actual Feed",
+            "spindle_load": "Spindle Load",
+            "speed_override": "Spindle Speed",
+            "feedrate_override": "Feed Rate Override",
+            "value": "Value",
+            "high": "Upper Limit",
+            "low": "Lower Limit",
+            "date_time": "Datetime",
+            "duration": "Duration",
+            "parameter": "Parameter",
+            "description": "Description",
+            "type": "Type",
+            "timestamp": "Timestamp",
+            "higher_than": "HIGHER THAN",
+            "lower_than": "LOWER THAN",
+            "parameter_alert_logs": "parameter_alert_logs",
+            "parameter_chart": "parameter_chart",
+            "factory": "factory",
+            "shop_floor": "shop_floor",
+            "machine_type": "type",
+            "machine_number": "machine_number",
+            "start_date": "start_date",
+            "end_date": "end_date",
+            "spindle_condition": "spindle_condition"
+        },
+        "chart": {
+            "Continuously": "Continuously",
+            "Hourly": "Hourly",
+            "AlarmStatusChart": "Alarm Status Chart",
+            "AlarmTrendChart": "Alarm Trend Chart"
+        },
+        "notification": {
+            "notification": "Notification",
+            "category": {
+                "parameter": "Parameter",
+                "alarm": "Alarm",
+                "status": "Status"
+            },
+            "sub_category": {
+                "high": "High",
+                "low": "Low",
+                "warning": "Warning",
+                "critical": "Critical",
+                "offline": "Offline",
+                "stop": "Stop",
+                "disconnected": "Disconnected"
+            },
+            "message": {
+                "higher_than": "HIGHER THAN",
+                "lower_than": "LOWER THAN",
+                "warning": "Warning",
+                "critical": "Critical",
+                "offline": "Offline",
+                "stop": "Stop",
+                "disconnected": "Disconnected"
+            }
+        },
+        "alarm_guideline": "Alarm Guideline",
+        "toast": {
+            "app_under_maintenance": "Application Under Maintenance",
+            "invalid_username": "Invalid username",
+            "invalid_password": "Invalid password",
+            "failed_to_get_factory_data": "Failed to get factory data",
+            "failed_to_get_shop_floor_data": "Failed to get shop floor data",
+            "failed_to_get_machine_type_data": "Failed to get machine type data",
+            "failed_to_get_machine_model_data": "Failed to get machine model data",
+            "failed_to_get_machine_number_data": "Failed to get machine number data",
+            "failed_to_get_machine_list": "Failed to get machine list",
+            "failed_to_get_parameter_alert_logs_data": "Failed to get parameter alert logs data",
+            "failed_to_get_asset_tags": "Failed to get asset tags",
+            "data_is_empty": "Data is empty",
+            "failed_to_get_data": "Failed to get data",
+            "failed_to_get_machine_details": "Failed to get machine details",
+            "failed_to_get_operation_summary_data": "Failed to get operation summary data",
+            "failed_to_get_machine_parameter_latest_data": "Failed to get machine parameter latest data",
+            "failed_to_get_user_details": "Failed to get user details",
+            "failed_to_upload_image": "Failed to upload image",
+            "failed_to_delete_image": "Failed to delete image",
+            "successfully_update_profile": "Successfully update profile",
+            "incorrect_confirm_password": "Incorrect confirm password",
+            "password_length": "Password length min. 8 max.72, contain at least 1 uppercase, lowercase, numeric, and special character",
+            "successfully_reset_password": "Successfully reset password",
+            "wrong_old_password": "The old password is wrong!",
+            "validate_email": "Invalid email address!"
+        },
+        "time": {
+            "today": "Today",
+            "time": " Time",
+            "second": "Second",
+            "minute": "Minute",
+            "hours": "Hours"
+        },
+        "date": {
+            "month": {
+                "january": "January",
+                "february": "February",
+                "march": "March",
+                "april": "April",
+                "may": "May",
+                "june": "June",
+                "july": "July",
+                "august": "August",
+                "september": "September",
+                "october": "October",
+                "november": "November",
+                "december": "December"
+            }
+        },
+        "login": {
+            "username": "Username",
+            "password": "Password",
+            "login": "Log In",
+            "warning": "Username or password wrong!",
+            "display_password": "Display my password",
+            "remember_device": "Remember this device",
+            "welcome_to": "Welcome to"
+        },
+        "profile": {
+            "header": {
+                "personal_information": "Personal Information",
+                "reset_password": "Reset Password"
+            },
+            "content": {
+                "username": "Username",
+                "job_number": "Job Number",
+                "email": "Email",
+                "password": "Password",
+                "new_password": "New Password",
+                "confirm_new_password": "Confirm New Password",
+                "update": "Update",
+                "reset_password": "Reset Password"
+            }
+        },
+        "sidebar": {
+            "menu_name": {
+                "shop_floor_overview": "Shop Floor Overview",
+                "machine_status_overview": "Machine Status Overview",
+                "machine_utilization": "Machine Utilization",
+                "machine_alarm_status": "Machine Alarm Status",
+                "machine_parameter_overview": "Machine Parameter Overview",
+                "spindle_condition": "Spindle Condition"
+            }
+        },
+        "header": {
+            "title": {
+                "shop_floor_overview": "Shop Floor Overview",
+                "machine_status_overview": "Machine Status Overview",
+                "machine_utilization": "Machine Utilization",
+                "machine_alarm_status": "Machine Alarm Status",
+                "machine_parameter_overview": "Machine Parameter Overview",
+                "spindle_condition": "Spindle Condition",
+                "not_found": "Page Not Found"
+            }
+        },
+        "content": {
+            "filter": {
+                "search": "Search",
+                "factory": "Factory",
+                "shop_floor": "Shop Floor",
+                "machine_type": "Type",
+                "machine_model": "Model",
+                "machine_number": "Machine No",
+                "start_date": "Start Date",
+                "end_date": "End Date"
+            },
+            "shop_floor_overview": {
+                "shop_floor_information": {
+                    "header": {
+                        "shop_floor_information": "Shop Floor Information"
+                    },
+                    "content": {
+                        "RunningMachine": "Running Machine",
+                        "factory": "Factory",
+                        "shopfloor": "Shop Floor",
+                        "totalasset": "Total Asset",
+                        "cnc": "CNC",
+                        "drilling-machine": "Drilling machine",
+                        "EDM": "EDM",
+                        "markingmachine": "Marking machine",
+                        "grindinmachine": "Grinding Machine",
+                        "crane": "Crane",
+                        "CloseMoldMachine": "Close Mold Machine",
+                        "MoldTurningMachine": "Mold Turning Machine",
+                        "Millingmachine": "Milling machine",
+                        "Measuringmachine": "Measuring Machine"
+                    }
+                },
+                "asset_list": {
+                    "header": {
+                        "asset_list": "Asset List"
+                    },
+                    "content": {
+                        "no": "No",
+                        "AssetID": "Asset ID",
+                        "brand": "Brand",
+                        "model": "Model",
+                        "machine_no": "Machine No",
+                        "type": "Type",
+                        "location": "Location",
+                        "factory": "Factory",
+                        "shopfloor": "Shop Floor",
+                        "remark": "Remark",
+                        "Documents": "Documents",
+                        "Upload": "Upload",
+                        "Add_machine": "Add Machine",
+                        "Update_machine": "Update Machine",
+                        "Information": "Information",
+                        "Modification": "Modification",
+                        "Timestamp": "Timestamp",
+                        "Modifiedby": "Modified by",
+                        "ModificationType": "Modification Type",
+                        "Image": "Image",
+                        "Files": "Files"
+                    }
+                },
+                "machine_information": {
+                    "header": {
+                        "Machine_information": "Machine information"
+                    },
+                    "content": {
+                        "AssetID": "Asset ID",
+                        "brand": "Brand",
+                        "model": "Model",
+                        "machine_no": "Machine No",
+                        "type": "Type"
+                    }
+                },
+                "error": {
+                    "ErrorcallingAPItogetassetsdatashopfloor": "Error calling API to get assets data shopfloor",
+                    "Move": "Move",
+                    "Exit": "Exit",
+                    "Clicktoplay": "Click to play",
+                    "Errordeletingasset": "Error deleting asset",
+                    "Succesdeletingasset": "Asset Deleted",
+                    "Errordeletingfile": "Error deleting file",
+                    "ErrorcallingAPItodeletefile": "Error calling API to delete file",
+                    "Errorgettingcountdata": "Error getting count data",
+                    "Errorgettingfunctionsdata": "Error getting type data",
+                    "Errorgettingbrandsdata": "Error getting brands data",
+                    "Errorgettingmodelnumbersdata": "Error getting model numbers data",
+                    "ErrorcallingAPItoaddasset": "Error calling API to add asset",
+                    "ErrorcallingAPItouploaddatasheets": "Error calling API to upload data sheets",
+                    "NewAssetAdded": "New Asset Added",
+                    "AssetUpdated": "Asset Updated",
+                    "ErrorcallingAPItogetroomsdata": "Error calling API to get shopfloor data",
+                    "ErrorcallingAPItogetfloorsdata": "Error calling API to get factory data",
+                    "ErrorcallingAPItoupdateasset": "Error calling API to update asset",
+                    "ErrorcallingAPItodeletedatasheets": "Error calling API to delete data sheets",
+                    "ErrorcallingAPItoaddmodification": "Error calling API to add modification",
+                    "nodatachanged": "no data changed",
+                    "Errorgettingcountmodification": "Error getting count modification",
+                    "Errorgettingmodification": "Error getting modification",
+                    "Errorgettingassetdatasheet": "Error getting asset data sheet",
+                    "Failedtogetfactorydata": "Failed to get factory data",
+                    "FailedtoexportAssets": "Failed to export Assets",
+                    "failedtogetdataexport": "failed to get data export",
+                    "failedtogetdata": "failed to get data",
+                    "Failedtogetchartdata": "Failed to get chart data",
+                    "Failedtogetrealtimedata": "Failed to get realtime data",
+                    "Failedtogetmachinenumberdata": "Failed to get machine number data",
+                    "Failedtogetcountalarmdata": "Failed to get count alarm data",
+                    "Failedtogetalarmdata": "Failed to get alarm data",
+                    "failedgetlisttypealarm": "failed get list type alarm",
+                    "failedgetlistcodealarm": "failed get list code alarm",
+                    "Failedtogettenerrorcode": "Failed to get ten error code",
+                    "Failedtogetoccurencedata": "Failed to get occurence data",
+                    "ErrorcallingAPItogetguidlinedata": "Error calling API to getguidline data",
+                    "Thisoperationwilldeletetheselectedmachinesinformations": "This operation will delete the selected machines informations.",
+                    "Areyousurewanttocontinue?": "Are you sure want to continue?",
+                    "Errorvalidatingexistingassetnumber": "Error validating existing asset number",
+                    "Assetnumberalreadyexist": "Asset number already exist",
+
+                    "Failedtodeletebrandoptionduetoexistingmodelnumberwiththisbrand": "Failed to delete brand option due to existing model number with this brand",
+                    "succesdeletebrand": "succes delete brand",
+                    "Errordeletingbrand": "Error deleting brand",
+                    "ErrorcallingAPItodeletebrand": "Error calling API to delete brand",
+                    "succesaddingbrand": "succes adding brand",
+                    "Erroraddingbrand": "Error adding brand",
+                    "ErrorcallingAPItoaddbrand": "Error calling API to add brand",
+                    "succesaddingtype": "succes adding type",
+                    "Erroraddingtype": "Error adding type",
+                    "ErrorcallingAPItoaddtype": "Error calling API to add type",
+                    "Failedtodeletebrandoptionduetoexistingmodelnumberwiththistype": "Failed to delete brand option due to existing model number with this type",
+                    "succesdeletetype": "succes delete type",
+                    "Errordeletingtype": "Error deleting type",
+                    "ErrorcallingAPItodeletetype": "Error calling API to delete type",
+                    "succesaddingmodel": "succes adding model",
+                    "Erroraddingmodelnumber": "Error adding model number",
+                    "ErrorcallingAPItoaddmodelnumber": "Error calling API to add model number",
+                    "Failedtodeletemodelnumberoptionduetoexistingassetwiththismodelnumber": "Failed to delete model number option due to existing asset with this model number",
+                    "succesdeletemodel": "succes delete model",
+                    "Errordeletingmodelnumber": "Error deleting model number",
+                    "ErrorcallingAPItodeletemodelnumber": "Error calling API to delete model number"
+                }
+            },
+            "spindle_condition": {
+                "spindle_condition": {
+                    "header": {
+                        "spindle_condition": "Spindle Condition"
+                    },
+                    "content": {
+                        "spindle_load": "Spindle Load",
+                        "actual_spindle_speed": "Actual Spindle Speed",
+                        "actual_feed_rate": "Actual Feed",
+                        "speed_rate_override": "Spindle Speed",
+                        "feed_rate_override": "Feed Rate Override"
+                    }
+                },
+                "parameter_alert_log": {
+                    "header": {
+                        "parameter_alert_log": "Parameter Alert Log"
+                    },
+                    "filter": {
+                        "type": "Type",
+                        "parameter": "Parameter"
+                    },
+                    "content": {
+                        "date_time": "Datetime",
+                        "duration": "Duration",
+                        "parameter": "Parameter",
+                        "description": "Description",
+                        "type": "Type",
+                        "body": {
+                            "spindle_load": "Spindle Load",
+                            "actual_spindle_speed": "Actual Spindle Speed",
+                            "actual_feedrate": "Actual Feed",
+                            "speed_override": "Spindle Speed",
+                            "feedrate_override": "Feed Rate Override",
+                            "higher_than": "HIGHER THAN",
+                            "lower_than": "LOWER THAN",
+                            "low": "Low",
+                            "high": "High"
+                        }
+                    }
+                },
+                "chart": {
+                    "actual_spindle_speed": "Actual Spindle Speed",
+                    "path_position": "Path Position",
+                    "tool_id": "Tool ID",
+                    "parts_count": "Parts Count",
+                    "parts_total": "Parts Total",
+                    "server_motor_temperature_x": "Server Motor Temperature X",
+                    "server_motor_temperature_y": "Server Motor Temperature Y",
+                    "server_motor_temperature_z": "Server Motor Temperature Z",
+                    "spindle_motor_temperature": "Spindle Motor Temperature",
+                    "xact": "Xact",
+                    "yact": "Yact",
+                    "zact": "Zact",
+                    "xload": "Xload",
+                    "yload": "Yload",
+                    "zload": "Zload",
+                    "actual_feedrate": "Actual Feed",
+                    "spindle_load": "Spindle Load",
+                    "speed_override": "Spindle Speed",
+                    "feedrate_override": "Feed Rate Override",
+                    "value": "Value",
+                    "high": "Upper Limit",
+                    "low": "Lower Limit"
+                },
+                "pop_up": {
+                    "header": {
+                        "actual_spindle_speed": "Actual Spindle Speed"
+                    },
+                    "content": {
+                        "high": "Upper Limit",
+                        "low": "Lower Limit",
+                        "update": "Update",
+                        "cancel": "Cancel"
+                    }
+                }
+            },
+            "machine_status_overview": {
+                "status": {
+                    "total": "Total",
+                    "running": "Running",
+                    "idle": "Idle",
+                    "hold": "Hold",
+                    "stop": "Stop",
+                    "offline": "Offline",
+                    "safe": "safe",
+                    "emergency": "Emergency"
+                },
+                "machine_overview": {
+                    "content": {
+                        "machine_type": "Machine Type",
+                        "model": "Model",
+                        "asset_id": "Asset ID",
+                        "location": "Location",
+                        "availability": "Availability",
+                        "running_time": "Running Time",
+                        "offline_time": "Offline Time",
+                        "total_alarms": "Total Alarms",
+                        "alarm_count_by_type": "Alarm Count by Type",
+                        "factory": "F",
+                        "shop_floor": "SF"
+                    }
+                }
+            },
+            "machine_utilization": {
+                "total": "Total",
+                "machine_basic_information": {
+                    "machine_no": "Machine No",
+                    "machine_type": "Machine Type",
+                    "location": "Location"
+                },
+                "status": {
+                    "running": "Running",
+                    "idle": "Idle",
+                    "hold": "Hold",
+                    "stop": "Stop",
+                    "offline": "Offline",
+                    "safe": "safe"
+                }
+            },
+            "machine_alarm_status": {
+                "alarm_log": {
+                    "header": {
+                        "alarm_log": "Alarm Log"
+                    },
+                    "content": {
+                        "type": "Type",
+                        "code": "Code",
+                        "no": "No",
+                        "date": "Date",
+                        "time_start": "Time Start",
+                        "time_stop": "Time Stop",
+                        "duration": "Duration",
+                        "alarm_kinds": "Alarm Kinds",
+                        "Critical": "Critical",
+                        "Warning": "Warning",
+                        "Emergency": "Emergency",
+                        "AlarmGuidlines": "Alarm Guidlines",
+                        "Nocode": "No.Code",
+                        "Description": "Description"
+                    }
+                },
+                "alarm_trend_status_chart": {
+                    "header": {
+                        "alarm_trend_chart": "Alarm Trend Chart",
+                        "alarm_status_chart": "Alarm Status Chart"
+                    },
+                    "content": {
+                        "critical": "Critical Alarm",
+                        "warning": "Warning Alarm",
+                        "disconnected": "Disconnected",
+                        "noalarm": "No Alarm",
+                        "emergency": "Emergency"
+                    }
+                },
+                "top_5_occurence_by": {
+                    "header": {
+                        "top_5_occurence_by": "Top 5 Occurence by"
+                    },
+                    "content": {
+                        "CriticalAlarm": "Critical Alarm",
+                        "WarningAlarm": "Warning Alarm"
+                    }
+                },
+                "alarm_guidline": {
+                    "Parameterswitchon": "Parameter switch on",
+                    "Poweroffparameterset": "Power off parameter set",
+                    "I/Oerror": "I/O error",
+                    "ForegroundP/S": "Foreground P/S",
+                    "OvertravelExternalData": "Overtravel,External Data",
+                    "Overheatalarm": "Overheat alarm",
+                    "Servoalarm": "Servo alarm",
+                    "DataI/Oerror": "Data I/O error",
+                    "Macroalarm": "Macro alarm",
+                    "Spindlealarm": "Spindle alarm",
+                    "Otheralarm(DS)": "Other alarm (DS)",
+                    "Alarmconcerningmalfucntionpreventfunctions": "Alarm concerning malfucntion prevent functions",
+                    "BackgroundP/S": "Background P/S",
+                    "Syncronizederror": "Syncronized error",
+                    "(reserved)": "(reserved)",
+                    "Externalalarmmessage": "External alarm message",
+                    "PMCerror": "PMC error",
+                    "NotUsed": "Not Used"
+                },
+                "top_10_error_code": {
+                    "header": {
+                        "top_10_error_code": "Top 10 Error Code"
+                    }
+                }
+            },
+            "machine_parameter_overview": {
+                "machine_basic_information": {
+                    "header": {
+                        "machine_basic_information": "Machine Basic Information"
+                    },
+                    "content": {
+                        "machine_type": "Machine Type",
+                        "machine_no": "Machine No",
+                        "model": "Model",
+                        "location": "Location",
+                        "factory": "F",
+                        "shop_floor": "SF"
+                    }
+                },
+                "operating_mode": {
+                    "header": {
+                        "operating_mode": "Operating Mode"
+                    }
+                },
+                "spindle_speed": {
+                    "header": {
+                        "spindle_speed": "Spindle Paramaters"
+                    },
+                    "content": {
+                        "actual_spindle_speed": "Actual Spindle Speed",
+                        "speed_rate_override": "Speed Rate Override"
+                    }
+                },
+                "feed_rate": {
+                    "header": {
+                        "feed_rate": "Feed Parameters"
+                    },
+                    "content": {
+                        "feed_rate_override": "Feed Rate",
+                        "actual_feed_rate": "Actual Feed"
+                    }
+                },
+                "spindle_load": {
+                    "header": {
+                        "spindle_load": "Spindle Load"
+                    },
+                    "content": {
+                        "spindle_load": "Spindle Load"
+                    }
+                },
+                "servo_motor_temperature": {
+                    "header": {
+                        "servo_motor_temperature": "Servo Motor Temperature"
+                    }
+                },
+                "spindle_load_and_axis": {
+                    "header": {
+                        "spindle_load_and_axis": "Spindle Load & Axis"
+                    },
+                    "content": {
+                        "tool_id": "Tool ID",
+                        "path_positions": "Path Positions",
+                        "load": "Load",
+                        "position": "Position"
+                    }
+                },
+                "operating_summary": {
+                    "header": {
+                        "operating_summary": "Operating Summary"
+                    },
+                    "content": {
+                        "availability": "Availability",
+                        "utilization": "Utilization",
+                        "total_machine_power_on_time": "Total Machine Power On Time",
+                        "total_running_time": "Total Running Time",
+                        "total_idle_time": "Total Idle Time",
+                        "total_hold_time": "Total Hold Time",
+                        "total_offline_time": "Total Offline Time",
+                        "total_stop_time": "Total Stop Time",
+                        "total_cutting_time": "Total Effective Cutting Time",
+                        "cutting_utilization": "Cutting Utilization",
+                        "mttr": "MTTR",
+                        "mtbf": "MTBF"
+                    },
+                    "status": {
+                        "running": "Running",
+                        "idle": "Idle",
+                        "hold": "Hold",
+                        "stop": "Stop",
+                        "offline": "Offline",
+                        "cutting": "Cutting",
+                        "non_cutting": "Non-Cutting"
+                    }
+                }
+            }
+        },
+        "not_found": {
+            "short_detail": "Not Found",
+            "long_detail": "The resource requested could not be found on this server"
+        }
+    }
+}

@@ -1,0 +1,328 @@
+body { margin: 0; }
+#canvas { width: 100vw; height: 100vh; display: block; }
+
+#blocker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#instructions {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+#container {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.annotation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 1em;
+    width: 200px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    font-size: 12px;
+    line-height: 1.2;
+    transition: opacity 0.5s;
+    visibility: hidden;
+}
+.deleteObj {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 1em;
+    width: 200px;
+    color: #fff;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 0.5em;
+    font-size: 12px;
+    line-height: 1.2;
+    transition: opacity 0.5s;
+    visibility: hidden;
+}
+
+.material {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(8, 70, 133),
+        rgba(0, 99, 197, 0)
+    );
+    gap: 10px;
+    position: absolute;
+    padding: 10px;
+    height: -webkit-fill-available;
+}
+
+.materialz {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(8, 70, 133),
+        rgba(0, 99, 197, 0)
+    );
+    gap: 10px;
+    position: absolute;
+    padding: 10px;
+    height: -webkit-fill-available;
+    overflow-y: auto;
+    max-height: 800px;
+}
+
+.mrg {
+    display: flex;
+    flex-direction: row;
+}
+
+.show_hide_2 {
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -21px;
+    width: 28px;
+    height: 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(
+        to left,
+        rgb(8, 70, 133),
+        rgb(0 66 130 / 0%)
+    );
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+}
+
+.show_hide_2 p {
+    transform: rotate(270deg);
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+    margin: 0;
+}
+
+.material .title {
+    padding: 10px;
+    color: WHITE;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+}
+.menu {
+    padding: 10px;
+    color: WHITE;
+    display: flex;
+    height: fit-content;
+    background: rgb(34 163 255 / 37%);
+    cursor: pointer;
+}
+
+.loading {
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    font-size: smaller;
+    font-weight: lighter;
+    user-select: none;
+}
+
+.pop {
+    padding: 20px;
+    background: rgb(8 8 8);
+    position: absolute;
+    /* box-shadow: inset 0px 0px 8px #888888; */
+    display: flex;
+    /* left: 50%; */
+    /* top: 50%; */
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.data {
+    padding: 20px;
+    background: rgb(8 8 8);
+    position: absolute;
+    /* box-shadow: inset 0px 0px 8px #888888; */
+    display: flex;
+    /* left: 50%; */
+    /* top: 50%; */
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.detail {
+    padding: 20px;
+    background: rgb(255 255 255);
+    bottom: 1rem;
+    right: 1rem;
+    position: absolute;
+    /* box-shadow: inset 0px 0px 8px #888888; */
+    width: 300px;
+}
+
+.detail2 {
+    padding: 5px 10px 5px 10px;
+    background: white;
+    top: 1rem;
+    left: 18%;
+    position: absolute;
+    min-width: 100px;
+    min-height: 50px;
+}
+.detail2 .title {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+}
+.close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #71b5c2;
+    border-radius: 2px;
+    padding: 2px 5px 2px 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.detail2 .control {
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(215, 233, 233);
+}
+.detail .rowData {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowData .label {
+    width: 120px;
+    font-weight: bold;
+    user-select: none;
+}
+p {
+    margin: 0;
+}
+.rowData .data {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.active,
+.menu:hover {
+    color: #0c0d0e75;
+    background-color: white;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    right: 1rem;
+    top: 50%;
+    flex-direction: column;
+    gap: 10px;
+}
+span.button {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#blocker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: "#ffffff";
+}
+
+#instructions {
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}

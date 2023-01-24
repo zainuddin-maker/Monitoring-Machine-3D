@@ -1,0 +1,267 @@
+.machine-information-modal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+
+    .choose-information-modification{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+            // justify-content: space-around;
+            .information{
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                 width: 50%;
+                border-right: 2px solid #184267;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+            }
+
+            .modification{
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                
+            }
+    }
+
+    .asset-list-modification{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: flex-start;
+        overflow: auto;
+        gap: 20px;
+
+        .content-table {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            justify-content: space-between;
+
+            .table {
+                display: flex;
+                height: 100%;
+
+                
+                         
+            }
+
+            .pagination {
+                margin-top: 20px;
+                display: flex;
+                width: 100%;
+                height: 45px;
+                justify-content: center;
+            }
+            .column-green {
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .edit-profile-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+
+    .top-side {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 10px 30px;
+    }
+    .bottom-side {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 30px 30px 30px;
+
+        .box-document {
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .list-of-document{
+            
+
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between ;
+            align-items: center;
+            border-bottom: 1px solid #AEC4DA;
+
+            .label {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                color: #333333;
+            }
+            .imagedelete {
+                cursor: pointer;
+            }
+        }
+
+        .right-button-upload{
+            display: flex;
+            justify-content: end;
+
+            .upload-button-document{
+
+                display: flex;
+                flex-direction: row;     
+                align-items: center;  
+                justify-content: space-between;
+                 width: 70px;
+             
+                padding: 5px;
+                border: 1px solid #658EB4;
+                background: linear-gradient(180deg, #FAFBFB 0%, #D9E4E7 100%);
+            
+                .label{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+            
+            }
+        }
+   
+    }
+}
+
+.asset-add-pop-container {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.asset-upload-file {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-gap: 10px;
+    // justify-content: space-between;
+
+    .asset-upload-file-input-form {
+        display: none;
+    }
+
+    .asset-upload-file-label {
+        background-color: #0000ff;
+        height: auto;
+        min-height: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .asset-uploaded-files {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 15px;
+        overflow-y: auto;
+        max-height: 100px;
+        .asset-upload-file-name {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            span,
+            a {
+                width: 80%;
+                font-size: 14px;
+                display: block;
+
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                text-decoration: underline;
+                 color: #0000ff;
+                cursor: pointer;
+            }
+
+            img {
+                height: 15px;
+                width: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.reusable-upload-photo {
+    display: inline-flex;
+    justify-content: space-between;
+    grid-gap: 15px;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    &__preview {
+        height: 100%;
+        width: 100%;
+        background-color: #ffffff;
+        background-position: center;
+        background-repeat: no-repeat;
+        // background-size: cover;
+        background-size: auto;
+        // object-fit: cover;
+        outline: 1px solid #3d5d7a;
+        outline-offset: 5px;
+
+        &--placeholder {
+            background-size: auto;
+        }
+    }
+
+    &__label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__file-input-form {
+        display: none;
+    }
+
+    &__image-add {
+        width: 30%;
+        position: absolute;
+        right: -5px;
+        bottom: 10px;
+        cursor: pointer;
+    }
+}
