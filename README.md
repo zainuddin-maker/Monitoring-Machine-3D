@@ -85,6 +85,8 @@ There are several functions and API (with PostgreSQL Query) including:
 ## Built with
 
 -   [D3.js](https://d3js.org/) - D3.js is a JavaScript library for manipulating documents based on data.
+
+-   [D3.js](https://d3js.org/) - D3.js is a JavaScript library for manipulating documents based on data.
 -   [html](https://www.w3schools.com/html/) - HTML is the standard markup language for Web pages.
 -   [css](https://www.w3schools.com/css/) - CSS is the language we use to style an HTML document
 
