@@ -18,11 +18,11 @@ const Sidebar = (props) => {
             icon: <IconOne className='menu-icon' />,
             name: "sidebar.menu_name.shop_floor_overview",
         },
-        {
-            url: "/machine_status_overview",
-            icon: <IconTwo className='menu-icon' />,
-            name: "sidebar.menu_name.machine_status_overview",
-        },
+        // {
+        //     url: "/machine_status_overview",
+        //     icon: <IconTwo className='menu-icon' />,
+        //     name: "sidebar.menu_name.machine_status_overview",
+        // },
         {
             url: "/machine_utilization",
             icon: <IconThree className='menu-icon' />,
@@ -33,16 +33,16 @@ const Sidebar = (props) => {
             icon: <IconFour className='menu-icon' />,
             name: "sidebar.menu_name.machine_alarm_status",
         },
-        {
-            url: "/machine_parameter_overview",
-            icon: <IconFive className='menu-icon' />,
-            name: "sidebar.menu_name.machine_parameter_overview",
-        },
-        {
-            url: "/spindle_condition",
-            icon: <IconSix className='menu-icon' />,
-            name: "sidebar.menu_name.spindle_condition",
-        },
+        // {
+        //     url: "/machine_parameter_overview",
+        //     icon: <IconFive className='menu-icon' />,
+        //     name: "sidebar.menu_name.machine_parameter_overview",
+        // },
+        // {
+        //     url: "/spindle_condition",
+        //     icon: <IconSix className='menu-icon' />,
+        //     name: "sidebar.menu_name.spindle_condition",
+        // },
     ];
 
     return (
