@@ -38,7 +38,7 @@ for the first page , it is used for an overview of the machine looks like below 
 
 ![Chat Preview](https://github.com/zainuddin-maker/Monitoring-Machine-3D/blob/master/Page1.PNG?raw=true)
 
-
+https://user-images.githubusercontent.com/60869820/214246106-d869cc68-815a-4e07-aa69-001c04b467d6.mp4
 
 There are several functions and API (with PostgreSQL Query) including:
 1. Adding Assets  ( 5 Query)
@@ -84,7 +84,6 @@ There are several functions and API (with PostgreSQL Query) including:
 
 ## Built with
 
--   [D3.js](https://d3js.org/) - D3.js is a JavaScript library for manipulating documents based on data.
 
 -   [D3.js](https://d3js.org/) - D3.js is a JavaScript library for manipulating documents based on data.
 -   [html](https://www.w3schools.com/html/) - HTML is the standard markup language for Web pages.
