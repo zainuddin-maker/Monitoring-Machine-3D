@@ -35,6 +35,8 @@ This website has 3 important pages, each page has its own function.
 
 for the first page , it is used for an overview of the machine looks like below :
 
+https://user-images.githubusercontent.com/60869820/214240881-7e91ef26-7f09-467b-839c-5ef42f2c149d.mp4
+
 
 
 
