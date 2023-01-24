@@ -53,7 +53,7 @@ can walk around the field in 3D , 2 Query  )
 
 For page 2 it is used to monitor the state of the status of each asset, looks like below: 
 
-![Chat Preview](https://github.com/zainuddin-maker/Monitoring-Machine-3D/blob/master/Page1.PNG?raw=true)
+![Chat Preview](https://github.com/zainuddin-maker/Monitoring-Machine-3D/blob/master/Page2.PNG?raw=true)
 
 There are several functions and API (with PostgreSQL Query) including:
 
